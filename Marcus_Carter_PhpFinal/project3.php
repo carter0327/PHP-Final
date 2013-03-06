@@ -17,7 +17,53 @@
 </head>
 <body>
 
-<?php include ('nav.php');?>
+<nav class="top-bar">
+
+    <ul class="title-area">
+       <a href="index.php">Marcus Carter Design</a>
+      <li class="name">
+        <h1>
+          <a href="#">
+            
+          </a>
+        </h1>
+      </li>
+      <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
+    </ul>
+ 
+    <section class="top-bar-section">
+      <!-- Right Nav Section -->
+      <ul class="right">
+        <li class="divider"></li>
+        <li class="has-dropdown">
+          <a href="#">Projects</a>
+          <ul class="dropdown">
+            <li><label>Websites</label></li>
+            <li><a href="project1.php">Lebron Fashion</a></li>
+            <li><a href="project2.php">Miami Heat</a></li>
+            <li><a href="project3.php">Steve Jobs Autobiography</a></li>
+            <li><a href="#">Pittock Mansion</a></li>
+            <li><a href="#">Portland Art Museum</a></li>
+            <li class="divider"></li>
+			<li><label>Cultural</label></li>
+            <li><a href="#">Japanese Gardens</a></li>
+            <li><a href="#">Lan Su Chinese Garden</a></li>
+            <li class="divider"></li>
+			<li><label>Unique to Portland</label></li>
+            <li><a href="#">Saturday Market</a></li>
+            <li><a href="#">Voodoo Donuts</a></li>
+            <li class="divider"></li>
+            
+          </ul>
+        </li>
+        <li class="divider"></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li class="divider"></li>
+        <li><a href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </section>
+  </nav>
     <!-- End Navigation -->
 
  
@@ -33,7 +79,7 @@
   <div class="row">
     <div class="large-4 columns">
       
-	  <img src="img/lbj_logo.png">
+	  <img src="img/timeline.png">
     </div>
     <div class="large-8 columns">
       <h4>This is a content section.</h4>
